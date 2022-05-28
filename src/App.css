@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 10%,
+    #44107a 20%,
+    #ff1361 30%,
+    #fff800 40%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 8em;
+}
+
+h2{
+  text-align: center;
+}
+
+img{
+  margin-left:35%;
+  width: 30%;
+}
+
+button{
+  margin-left:48%;
+  margin-top: 10%;
+}
